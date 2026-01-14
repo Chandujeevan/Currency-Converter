@@ -1,7 +1,7 @@
 # 🪙 Currency Converter
 A sleek, responsive, and real-time Currency Converter web application built with HTML, CSS, and Vanilla JavaScript. This tool allows users to instantly convert amounts between various global currencies using live exchange rate data.
 
-[**🚀 Live Demo**](https://chandujeevan.github.io/Currency-Converter/e)
+[**Live Demo**](https://chandujeevan.github.io/Currency-Converter/)
 ## 🚀 Features
 - Real-Time Conversion: Fetches the latest exchange rates using the Fawaz Ahmed's Currency API.
 

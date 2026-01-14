@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  background-color: rgb(237, 239, 245);
+}
+.container {
+  background-color: rgb(251, 251, 252);
+  padding: 2rem;
+  border-radius: 20px;
+  border: 2px solid #e2e8f0;
+  min-height: 45vh;
+  width: 40vh;
+  
+}
+form {
+  margin: 2rem 0 1rem 0;
+}
+p{
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+form select,
+input,
+button {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+form input {
+  height: 3rem;
+  border: 2px solid #e2e8f0;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  
+}
+.icon {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 3rem;
+  border-radius: 50%;
+  background-color: rgb(19, 142, 156);
+  color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e2e8f0;
+  
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.select-container img {
+  max-width: 3rem;
+  padding: 0 0 0 0;
+  border-radius: 0.75rem;
+}
+.select-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.75rem;
+  
+}
+.select-container select {
+  width: auto;
+  font-size: 1rem;
+  background-color: rgb(251, 251, 252);
+}
+option {
+  border: none;
+  border-radius: 0.75px;
+  background-color: rgb(19, 142, 156);
+}
+.msg {
+  margin: 2rem 0 2rem 0;
+  font-size: 1.35rem;
+}
+form button {
+  height: 3rem;
+  font-size: 1.5rem;
+  background-color: rgb(18, 80, 175);
+  color: rgb(251, 251, 252);
+  cursor: pointer;
+  border: 2px solid #e2e8f0;
+  
+}
+.icon:hover{
+  transform: rotate(360deg);
+  transition: 2s ease;
+  animation-duration: 1s;
+}
